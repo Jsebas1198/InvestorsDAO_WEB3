@@ -4,8 +4,8 @@ body {
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7700ee;
-  color: #fff;
+  background-color: #302a18;
+  color: #f6f6f6;
   overflow-x: hidden;
 }
 #root {
@@ -15,6 +15,7 @@ body {
 
 h1 {
   font-size: 5rem;
+  color: #f6f6f6f6
 }
 @media screen and (max-width: 768px) {
   h1 {
@@ -93,7 +94,7 @@ h1 {
 
 .member-page form h5 {
   margin-top: 0;
-  color: #7700ee;
+  color: #111111;
 }
 
 .member-page form .card > div {
@@ -107,17 +108,17 @@ h1 {
 }
 
 .card {
-  background-color: #fff;
+  background-color: #f6f6f6;
   padding: 1rem;
   border-radius: 1rem;
-  color: #000;
+  color: #111111;
   box-shadow: 3.1px 6.2px 6.2px hsl(0deg 0% 0% / 0.4);
 }
 
 button {
   cursor: pointer;
-  background-color: #000;
-  color: #fff;
+  background-color: #111111;
+  color: #f6f6f6;
   border: none;
   font-weight: bold;
   font-family: inherit;
@@ -132,7 +133,7 @@ button:hover {
 }
 
 button:focus {
-  background-color: #222;
+  background-color: #2f2f2f;
 }
 
 button:disabled {
